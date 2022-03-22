@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(196, 189, 189);
+  margin: 0;
+  padding: 0;
+} 
+
+/* navbar */
+nav {  
+  width: 100%;
+  color: white; 
+  background-color: black;
+  padding: 10px 5px;
+}
+nav ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* float: left; */
+  width: 100%;
+  overflow: hidden;
+}
+li {
+  display: inline;
+  float: left;
+  /* 100 / 12 = 8.333 */
+  width: 8%;
+  border-left: 0.5px white solid;
+  text-align: center;
+}
+/*BBC logo */
+#bbc {
+  /* padding: 0px; */
+  background-color: white;
+  color: black;
+}
+#search {
+  background-color: white;
+  color: black;
+}
+
+/* date div */
+#dateDiv {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+#welcome, #date {
+  font-size: 20px;
+  color: grey;
+  margin-top: 20px;
+}
+
+/* hero */
+
+/* subhero */
