@@ -62,20 +62,21 @@ li {
 }
 
 /* hero / 1st row of articles */
-#articleRow {
+.image-row1 {
   display: flex;
 }
-.image-container {
+.image-container1 {
   width: 50%; 
   position: relative;
 }
-.image-container img {
+.image-container1 img {
   width: 100%; 
   height: auto;
 }
-.image-container div {
+.image-container1 div {
   position: absolute;
-  bottom: 1.5%; /* 1.5% keeps it in line with the bottom of the image and the bbc news logo photo. Anyway to fix? // WHY ARE THE DIVS DIFFERENT HEIGHTS????*/
+  bottom: 1.5%; /* 1.5% keeps it in line with the bottom of the image and the bbc news logo photo. Anyway to fix? // WHY ARE THE DIVS DIFFERENT HEIGHTS???? 5 minutes later* Never mind, the lorem ipsum paragraph had more words and when i deleted some they are now the roughly the same size and it's 2 am and time for bed. 
+  FIX LATER on 3/24/2022; the images for the first row are not the same height and the 1st paragraph for the image on the left is weird and not taking up the full width of the photo on the left*/
   left: 0%; 
   color: black; 
   background-color: rgba(170, 164, 168, 0.5);
@@ -93,3 +94,26 @@ li {
 } 
 
 /* subhero */
+.image-row2 {
+  display: flex;
+} 
+.image-container2 {
+  width: 33%; 
+  position: relative;
+  padding: 0px 2.5px 0px;
+  
+}
+.image-container2 img {
+  width: 100%; 
+  height: auto;
+  justify-content: space-around;
+}
+.image-container2 div {
+  position: absolute;
+  bottom: 1.5%; 
+  left: 0%; 
+  color: black; 
+  background-color: rgba(170, 164, 168, 0.5);
+  text-align: center;
+  padding: 0px 5px 0px;
+}
