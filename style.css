@@ -80,7 +80,7 @@ main {
 }
 .image-container1 img {
   width: 100%; 
-  height: auto;
+  height: 2rem;
 }
 .image-container1 div {
   position: absolute;
